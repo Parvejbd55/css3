@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .food{
+                border: 3px solid lightgray;
+                border-radius: 30px;
+                margin: 10px;
+                width: 350px;
+            }
+            .food img{
+                width: 100%;
+            }
+            @media(max-width: 760px) {
+                .container{
+                    flex-direction: column;
+                }
+                .container .food{
+                    background-color: rosybrown;
+                }
+            @media(min-width: 1200px) {
+                .container .food {
+                    background-color: cornflowerblue;
+                    }
+                }
+            }
+           
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, expedita saepe libero debitis id velit fuga reprehenderit nisi harum, aspernatur suscipit autem dolor enim vel atque! Esse reprehenderit sint impedit sed sit ullam, saepe at ut aspernatur, eos laudantium a?</p>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <p>Aspernatur aut pariatur voluptas rem eligendi excepturi dicta labore nulla. Voluptates mollitia ratione impedit assumenda ipsum ex amet accusantium, perferendis expedita corporis nemo ad, eius repudiandae ducimus aliquam autem dicta repellendus possimus. Inventore, nobis. Libero accusantium in autem illo exercitationem?</p>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <p>Rem fuga dignissimos expedita minus non. Quis quia nostrum voluptatum ullam! Numquam obcaecati repudiandae blanditiis exercitationem quos voluptatem minus omnis, maiores veniam tenetur quae assumenda magnam, magni minima et quo, eius consectetur atque quibusdam saepe nihil enim? Eos, quos ducimus!</p>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <p>Voluptas consectetur est corporis eum aliquid, necessitatibus doloremque deleniti iusto ab. Officia similique omnis eveniet sed, iure in facilis corporis ea quas, iusto ex sint? Dolores inventore, velit quos cupiditate quia modi natus autem quod aperiam eligendi in tenetur recusandae.</p>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <p>Ullam, suscipit. Sequi nobis vero expedita. Incidunt fugiat iste ullam! Nisi dolorum nobis, nam odit distinctio tempore! Iusto fugiat dolorum, modi expedita odit neque sit accusantium repudiandae illo velit aspernatur distinctio deserunt omnis. Quis dolorem corrupti distinctio nesciunt laborum possimus?</p>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <p>Recusandae ipsa et, sed sequi officia quaerat soluta aspernatur itaque, nam corrupti laboriosam est, aliquid provident. Quo maiores debitis eum exercitationem doloremque! Et voluptatum sequi exercitationem id rem delectus eveniet, expedita unde ullam, quas corporis nobis, consequuntur autem dolorem cumque!</p>
+        </div>
+    </div>
+</body>
+</html>
